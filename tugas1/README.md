@@ -32,22 +32,22 @@
 
 ### MODIFIKASILAH program client.py dan server.py agar dapat MENTRANSFER file dari client ke server (letakkan program modifikasi di direktori tugas1a)
 * Hasil capture :
-    * client mengirim file ke server<br>
-    ![Client](foto/6.client.png)
+    * Menjalankan server.py pada PC saya (IP: 192.168.100.6)<br>
+    ![](https://github.com/bimaramadhan/progjarB/blob/master/tugas1/gambar/1a_1.png?raw=true)
 
-    * server menerima file<br>
-    ![Server](foto/6.server.png)
+    * Menjalankan client.py pada PC lain (IP: 192.168.100.29)<br>
+    ![](https://github.com/bimaramadhan/progjarB/blob/master/tugas1/gambar/1a_2.png?raw=true)
 
-    * bukti file yang dikirimkan<br>
-    ![Bukti](foto/6.bukti.png)
+    * File telah terkirim pada PC saya (IP: 192.168.100.6)<br>
+    ![](https://github.com/bimaramadhan/progjarB/blob/master/tugas1/gambar/1a_3.png?raw=true)
 
 ### MODIFIKASILAH program server.py agar dapat mengirimkan MENTRANSFER FILE yang di request oleh client (letakkan program modifikasi di direktori tugas1b) 
 * Hasil capture :
-    * client request file ke server<br>
-    ![Client](foto/7.client.png)
+    * Menjalankan server.py pada PC saya (IP: 192.168.100.6)<br>
+    ![](https://github.com/bimaramadhan/progjarB/blob/master/tugas1/gambar/1b_1.png?raw=true)
 
-    * server mengirimkan file <br>
-    ![Server](foto/7.server.png)
+    * Menjalankan client.py pada PC lain (IP: 192.168.100.29)<br>
+    ![](https://github.com/bimaramadhan/progjarB/blob/master/tugas1/gambar/1b_2.png?raw=true)
 
-    * bukti file yang dikirimkan<br>
-    ![Bukti](foto/7.bukti.png)
+    * File yang di request oleh client.py pada PC lain (IP: 192.168.100.29) telah berhasil dikirimkan oleh server.py pada PC saya (IP: 192.168.100.6)<br>
+    ![](https://github.com/bimaramadhan/progjarB/blob/master/tugas1/gambar/1b_3.png?raw=true)
