@@ -17,7 +17,9 @@ def download_gambar(url=None):
     if (content_type in list(tipe.keys())):
         namafile = os.path.basename(url)
         ekstensi = tipe[content_type]
+        path = '/gambar/'
         logging.warning(f"writing {namafile}.{ekstensi}")
+
         fp = open(f"{namafile}.{ekstensi}","wb")
         fp.write(ff.content)
         fp.close()
@@ -25,8 +27,8 @@ def download_gambar(url=None):
         return False
 
 array_gambar = ['https://www.its.ac.id/wp-content/uploads/sites/2/2020/02/WhatsApp-Image-2020-02-12-at-16.02.13-1024x683.jpeg',
-                'https://cdn.idntimes.com/content-images/post/20191220/73017677-2248225938749972-2951715633794400605-n-1-9a82bb25cb27a28a5ba980bed5b11493_600x400.jpg',
-                'https://www.its.ac.id/wp-content/uploads/sites/2/2020/02/WhatsApp-Image-2020-02-12-at-16.02.13-1024x683.jpeg']
+                'https://s.kaskus.id/images/2020/03/09/8976698_20200309035223.jpg',
+                'https://www.itb.ac.id/files/footer/top/Banner_Entrepreneurial_University_-_opening_v34.jpg']
 
 if __name__=='__main__':
     threads = []
