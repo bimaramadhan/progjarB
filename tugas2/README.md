@@ -24,3 +24,9 @@
 
 * Dapat dilihat bahwa pesan yang dikirimkan dapat tertangkap dan terbaca oleh wireshark
 ![Hasil_capture_udp_simple](https://github.com/bimaramadhan/progjarB/blob/master/tugas2/gambar/no2_2.PNG?raw=true)
+
+### 3. Hasil keluaran dari program udpfileclient.py ke pc lain dengan alamat 10.151.254.120 ke port 5006
+![](https://github.com/bimaramadhan/progjarB/blob/master/tugas2/gambar/no3_1.PNG?raw=true)
+
+### 4. Hasil keluaran dari program udp_simple.py ke pc lain dengan alamat 10.151.254.120 ke port 5006
+![](https://github.com/bimaramadhan/progjarB/blob/master/tugas2/gambar/no4_1.PNG?raw=true)
