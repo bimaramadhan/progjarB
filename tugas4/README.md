@@ -50,7 +50,7 @@ FITUR
 
   ![](gambar/upload_success.PNG)
   
-- Dapat dilihat bahwa file yang bersangkutan sudah berada di dalam direktori File Server
+- Dapat dilihat bahwa file yang bersangkutan sudah berada di dalam direktori **File Server**
 
   ![](gambar/upload_hasil.PNG)
 
@@ -68,7 +68,7 @@ FITUR
 
   ![](gambar/download_sukses.PNG)
   
-- Dapat dilihat bahwa file yang bersangkutan sudah berada di dalam direktori **File CLient**
+- Dapat dilihat bahwa file yang bersangkutan sudah berada di dalam direktori **File Client**
 
   ![](gambar/download_hasil.PNG)
 
