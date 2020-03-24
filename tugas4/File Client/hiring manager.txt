@@ -1,0 +1,9 @@
+Dear Mr. / Ms. Hiring Manager,
+
+I am writing to you today because I am interested in applying for the position of Back-End Web Developer as posted on the Kumparan Academy. I am a Bachelor’s Degree student in Informatics of Institut Teknologi Sepuluh Nopember and experience with SQL, Javascript, HTML, CSS, CGI, and Bootstrap. I am confident that I can learn more by joining this program.
+
+I’ve attached my resume so that you can see more of the projects I worked on as well as a list of my certifications. Thank you for your time and consideration. I look forward to speaking with you soon.
+
+Sincerely,
+
+Bima Satria Ramadhan
