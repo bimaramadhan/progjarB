@@ -25,17 +25,17 @@ class ProcessTheClient(threading.Thread):
                 data+=dataa
             if data:
                 dd=b'a'
-                if(len(data.split(b'AOE', 1))==2):
-                    dd, data = data.split(b'AOE', 1)
+                if(len(data.split(b'split', 1))==2):
+                    dd, data = data.split(b'split', 1)
                 d = data.decode()
                 cstring = d.split(" ")
                 command = cstring[0].strip()
                 hasil = pm.proses(d, dd)
                 if(command == "download"):
                     self.connection.sendall(hasil)
-                if (command == "list"):
+                elif (command == "list"):
                     self.connection.sendall(hasil.encode())
-                if(command == "upload"):
+                elif(command == "upload"):
                     self.connection.sendall(hasil.encode())
             else:
                 break
