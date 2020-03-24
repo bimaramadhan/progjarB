@@ -5,9 +5,9 @@ import logging
 import time
 import sys
 
-from person_machine import PersonMachine
+from file_machine import FileMachine
 
-pm = PersonMachine()
+pm = FileMachine()
 
 class ProcessTheClient(threading.Thread):
     def __init__(self, connection, address):
@@ -17,16 +17,29 @@ class ProcessTheClient(threading.Thread):
 
     def run(self):
         while True:
-            data = self.connection.recv(32)
+            data=b''
+            while True:
+                dataa = self.connection.recv(100)
+                if not dataa:
+                    break
+                data+=dataa
             if data:
+                dd=b'a'
+                if(len(data.split(b'AOE', 1))==2):
+                    dd, data = data.split(b'AOE', 1)
                 d = data.decode()
-                hasil = pm.proses(d)
-                hasil=hasil+"\r\n"
-                self.connection.sendall(hasil.encode())
+                cstring = d.split(" ")
+                command = cstring[0].strip()
+                hasil = pm.proses(d, dd)
+                if(command == "download"):
+                    self.connection.sendall(hasil)
+                if (command == "list"):
+                    self.connection.sendall(hasil.encode())
+                if(command == "upload"):
+                    self.connection.sendall(hasil.encode())
             else:
                 break
         self.connection.close()
-
 
 class Server(threading.Thread):
     def __init__(self):
@@ -35,7 +48,7 @@ class Server(threading.Thread):
         threading.Thread.__init__(self)
 
     def run(self):
-        self.my_socket.bind(('0.0.0.0', 5001))
+        self.my_socket.bind(('127.0.0.1', 5001))
         self.my_socket.listen(1)
         while True:
             self.connection, self.client_address = self.my_socket.accept()
@@ -44,7 +57,6 @@ class Server(threading.Thread):
             clt = ProcessTheClient(self.connection, self.client_address)
             clt.start()
             self.the_clients.append(clt)
-
 
 def main():
     svr = Server()
