@@ -4,8 +4,9 @@
 PROTOCOL FORMAT
 
 KETENTUAN MEMBACA FORMAT
-string terbagi menjadi 2 bagian, dipisahkan oleh spasi
-COMMAND spasi PARAMETER ...
+string terbagi menjadi 2 bagian, dipisahkan oleh enter
+ENTER COMMAND : (perintah)
+ENTER NAMEFILE : (nama file)
 
 FITUR
 
