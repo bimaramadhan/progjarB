@@ -7,3 +7,4 @@ Dokumentasi mata kuliah Pemrogaman Jaringan 2020
 2. [Tugas 2](https://github.com/bimaramadhan/progjarB/tree/master/tugas2)
 3. [Tugas 3](https://github.com/bimaramadhan/progjarB/tree/master/tugas3)
 4. [Tugas 4](https://github.com/bimaramadhan/progjarB/tree/master/tugas4)
+5. [Tugas 5](https://github.com/bimaramadhan/progjarB/tree/master/tugas5)
