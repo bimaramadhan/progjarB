@@ -151,7 +151,7 @@
   </tr>
 </table>
 
-## Hasil Performance Test menggunakan server_thread_http.py
+## Hasil Performance Test menggunakan server_async_http.py
 <table class="tg">
   <tr>
     <th class="tg-9wq8">No Test</th>
