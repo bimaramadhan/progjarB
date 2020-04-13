@@ -1,4 +1,28 @@
 # Tugas 7
+## Parameter Uji 
+<table>
+  <tr>
+    <td> Nomor </td>
+    <td> Jumlah request</td>
+    <td> Konkurensi</td>
+  </tr>
+  <tr>
+    <td> 1 </td>
+    <td> 10 </td>
+    <td> 1,5,10 </td>
+  </tr>
+  <tr>
+    <td> 2 </td>
+    <td> 50 </td>
+    <td> 1,10,30,50 </td>
+  </tr>
+   <tr>
+    <td> 3 </td>
+    <td> 100 </td>
+    <td> 1,10,50,100 </td>
+  </tr>
+ </table>
+ 
 ## Hasil Performance Test menggunakan server_thread_http.py
 <table class="tg">
   <tr>
